@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+html{
+    background-color: burlywood;
+}
+
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    }
+  
+    #navbar {
+      border-bottom: 2px solid orange;
+      display: flex;
+      justify-content: space-evenly;
+      font-weight: bold;
+      padding-bottom: 2rem;
+      margin: 1rem;
+    }
+    a {
+        color: orange;
+    }
+    a:link {
+        text-decoration: none;
+        color: orange;
+    }
+    a:visited {
+        text-decoration: none;
+        color: rgb(148, 104, 22);
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    ol {
+        padding-left: 0;
+    }
+    
+    .crumb {
+      margin-right: 2em;
+      display: inline;
+  }  
+    header {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        flex-direction: column;
+    }
+    img {
+        padding-bottom: 1.5rem;
+        border-radius: 10%;
+        max-width: 300px;
+    }
+    #buttons {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 1rem 0px;
+        border-bottom: 2px solid orange;
+    }
+    .favorites {
+        background-color: yellow;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 13px;
+        border: double orange;
+        border-radius: 10px;
+        margin: 0.5rem
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        padding: 1rem;
+    }
+    #lists {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    ul {
+        padding-top: 0.5rem;
+    }
+    #career {
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inform {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        padding: 1rem;
+        border-bottom: solid 2px orange;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        font-weight: bold;
+        margin: 5px;
+    }
+    input {
+        padding: 5px;
+        margin: 5px;
+        width: 15rem;
+        background-color: burlywood;
+    }

@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+html{
+    background-color: burlywood;
+}
+
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    }
+  
+    #navbar {
+      border-bottom: 2px solid orange;
+      display: flex;
+      justify-content: space-evenly;
+      font-weight: bold;
+      padding-bottom: 2rem;
+      margin: 1rem;
+    }
+    a {
+        color: orange;
+    }
+    a:link {
+        text-decoration: none;
+        color: orange;
+    }
+    a:visited {
+        text-decoration: none;
+        color: rgb(148, 104, 22);
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    ol {
+        padding-left: 0;
+    }
+    
+    .crumb {
+        margin-right: 2em;
+        display: inline;
+    }  
+    header {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        flex-direction: column;
+    }
+    img {
+        width: 300px;
+        border-radius: 10%;
+        margin: 1rem;
+    }
+    p {
+        padding: 0.5rem 2rem 1rem 2rem;
+        border-bottom: solid 2px orange;
+        text-align: justify;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    li {
+        list-style-type: none;
+        padding: 0.15rem;
+    }
+    #restaurants, #parks {
+        padding: 0.5rem;
+    }
+    button {
+        padding: 5px;
+        font-weight: bold;
+        background-color: yellow;
+        margin: 1rem;
+        border: double orange;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+    h4 {
+        margin-bottom: 1rem;
+    }
+    
