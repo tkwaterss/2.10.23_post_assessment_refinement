@@ -21,21 +21,45 @@ const reverseColor = event => {
     event.target.style.color = 'black'
 }
 
-const displayColor = event => {
-    alert("My favorite color is Purple!")
+// const displayColor = event => {
+//     alert("My favorite color is Purple!")
+// }
+const toggleColor = event => {
+    if(color.innerHTML === "Favorite Color") {
+        color.innerHTML = "Purple!";
+    } else {
+        color.innerHTML = "Favorite Color";
+    }
 }
 
-const displayPlace = event => {
-    alert("My favorite place is 'Somewhere on a River'")
+// const displayPlace = event => {
+//     alert("My favorite place is 'Somewhere on a River'")
+// }
+const togglePlace = event => {
+    if(place.innerHTML === "Favorite Place") {
+        place.innerHTML = "Escelante!";
+    } else {
+        place.innerHTML = "Favorite Place";
+    }
 }
 
-const displayRitual = event => {
-    alert("Playing 'Rose, Bud, Thorn' at the end of a trip.")
+// const displayRitual = event => {
+//     alert("Playing 'Rose, Bud, Thorn' at the end of a trip.")
+// }
+const toggleRitual = event => {
+    if(ritual.innerHTML === "Favorite Ritual") {
+        ritual.innerHTML = "Rose, Bud, Thorn";
+    } else {
+        ritual.innerHTML = "Favorite Ritual";
+    }
 }
 
-color.addEventListener('click', displayColor);
-place.addEventListener('click', displayPlace);
-ritual.addEventListener('click', displayRitual);
+color.addEventListener('click', toggleColor);
+place.addEventListener('click', togglePlace);
+ritual.addEventListener('click', toggleRitual);
+// color.addEventListener('click', displayColor);
+// place.addEventListener('click', displayPlace);
+// ritual.addEventListener('click', displayRitual);
 
 for(let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('mouseover',changeColor);
