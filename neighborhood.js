@@ -1,9 +1,15 @@
 const button = document.querySelector('button');
 const restaurants = document.querySelectorAll('.restaurants');
 
+
 const randomRestaurant = event => {
     let suggest = document.querySelector('#recommended');
     suggest.textContent = restaurants[Math.floor(Math.random() * restaurants.length)].outerText
+}
+
+const redirectRestaurant = event => {
+    let randomRes = restaurants[Math.floor(Math.random() * restaurants.length)]
+    randomRes.firstChild.click();
 }
 
 const changeColor = event => {
@@ -31,6 +37,7 @@ const revealItem = event => {
 
 }
 
+button.addEventListener('click', redirectRestaurant);
 button.addEventListener('click', randomRestaurant);
 button.addEventListener('mouseover', changeColor);
 button.addEventListener('mouseout', reverseColor);
